@@ -35,6 +35,7 @@ from wordcloud import WordCloud, STOPWORDS
 ## solamente deja la búsqueda vacía avanzando con Enter. Cada búsqueda ingresada se irá almacenando en un diccionario que será utilizado para ir dinamizando el link de búsqueda.
 ## Se agrega un proceso de 'normalización' de términos, agregando un + en cada espacio entre términos, para que la búsqueda no arroje un mensaje de error.
 
+server = app.server
 
 fecha = str(input("Seleccione la fecha de inicio (dd/mm/yyyy): "))
 busqueda = {}
